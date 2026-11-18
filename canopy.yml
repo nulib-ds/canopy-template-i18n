@@ -1,0 +1,42 @@
+title: i18n site title
+locales:
+  - lang: en
+    label: English
+    default: true
+  - lang: es
+    label: Español
+collection:
+  - https://nulib-ds.github.io/canopy-fixtures/iiif/presentation/3/i18n/collection.json
+metadata:
+  - Date
+  - Colors
+featured:
+  - https://nulib-ds.github.io/canopy-fixtures/iiif/presentation/3/i18n/manifest-01.json
+  - https://nulib-ds.github.io/canopy-fixtures/iiif/presentation/3/i18n/manifest-02.json
+  - https://nulib-ds.github.io/canopy-fixtures/iiif/presentation/3/i18n/manifest-03.json
+search:
+  page:
+    title: Search
+    description: Discover results across locales.
+  results:
+    work:
+      layout: grid
+      result: figure
+    page:
+      layout: list
+      result: article
+  index:
+    metadata:
+      enabled: true
+      all: false
+    summary:
+      enabled: true
+    annotations:
+      enabled: false
+      motivation:
+        - commenting
+        - tagging
+theme:
+  appearance: light
+  accentColor: crimson
+  grayColor: mauve
